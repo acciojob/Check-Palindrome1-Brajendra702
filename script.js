@@ -6,10 +6,10 @@ function palindrome(str){
 		let x=str[i]; //forwar charater
 		let y=str[j-i]; //backwar charater
 		if(x!=y){
-			return false;
+			return 'false';
 		}
 	}
-	return true;
+	return 'true';
 
 }
 module.exports = palindrome
